@@ -45,6 +45,9 @@ int main()
     printf("Reversed Linked list is:\n");
     reverse_list();
     traverse_list();
+    printf("Insert node after middle\n");
+    insert_after_middle(25);
+    traverse_list();
     printf("list after free\n");
     free_list();
     traverse_list();

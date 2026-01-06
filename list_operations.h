@@ -17,5 +17,6 @@ void find_middle();
 int detect_loop();
 void reverse_list();
 void free_list();
+void insert_after_middle(int data);
 extern struct node * head;
 #endif
