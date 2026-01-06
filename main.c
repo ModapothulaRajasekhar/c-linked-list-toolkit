@@ -48,6 +48,9 @@ int main()
     printf("Insert node after middle\n");
     insert_after_middle(25);
     traverse_list();
+    printf("List after inserting data at postion\n");
+    insert_at_position(4,155);
+    traverse_list();
     printf("list after free\n");
     free_list();
     traverse_list();

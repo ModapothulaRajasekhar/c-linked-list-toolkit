@@ -18,5 +18,6 @@ int detect_loop();
 void reverse_list();
 void free_list();
 void insert_after_middle(int data);
+void insert_at_position(int pos , int data);
 extern struct node * head;
 #endif
