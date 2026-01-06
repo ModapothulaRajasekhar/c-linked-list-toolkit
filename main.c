@@ -3,7 +3,7 @@
 #include"list_operations.h"
 
 
-struct node *create_node(int data)
+/*struct node *create_node(int data)
 {
     struct node * new_node = (struct node *)malloc(sizeof(struct node));
     if(new_node == NULL)
@@ -14,7 +14,9 @@ struct node *create_node(int data)
     new_node ->data = data;
     new_node ->next = NULL;
     return new_node;
-}
+}*/
+
+
 struct node * head = NULL;
 int main()
 {
